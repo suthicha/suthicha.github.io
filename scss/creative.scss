@@ -1,0 +1,18 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "services.scss";
+@import "portfolio.scss";
+@import "bootstrap-overrides.scss";
+
+.text-faded > ui {
+    list-style: none;
+}
+.text-faded > ui > li {
+    padding: 5px;
+    padding-left: 2em;
+    text-indent: -0.5em;
+    font-weight: 200;
+}
